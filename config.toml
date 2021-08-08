@@ -1,3 +1,21 @@
-baseURL = "http://praveenmuthu.dev"
+baseURL      = "http://praveenmuthu.dev"
 languageCode = "en-us"
-title = "Praveen Muthu"
+title        = "Praveen Muthu"
+theme        = "hugo-theme-console"
+
+[params]
+  titleCutting = true
+
+  animateStyle = "animated zoomIn fast"
+
+  [[params.navlinks]]
+  name = "about/"
+  url  = "about/"
+
+  [[params.navlinks]]
+  name = "portfolio/"
+  url  = "portfolio/"
+
+  [[params.navlinks]]
+  name = "contact/"
+  url  = "contact/"
