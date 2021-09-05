@@ -9,13 +9,17 @@ theme        = "hugo-theme-console"
   animateStyle = "animated zoomIn fast"
 
   [[params.navlinks]]
+  name = "home"
+  url  = "/"  
+
+  [[params.navlinks]]
   name = "about/"
   url  = "about/"
 
   [[params.navlinks]]
-  name = "portfolio/"
-  url  = "portfolio/"
+  name = "resume/"
+  url  = "resume/"
 
   [[params.navlinks]]
-  name = "contact/"
-  url  = "contact/"
+  name = "portfolio/"
+  url  = "portfolio/"
